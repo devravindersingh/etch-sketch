@@ -1,0 +1,54 @@
+#container{
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+}
+
+
+#controls {
+    background-color: #a19713;
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    justify-content:center;
+       
+}
+
+#controlButton {
+    align-self: center;
+}
+
+button {
+    height: 80px;
+    width: 140px;
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 58px;
+    font-size: large;
+    font-family: sans-serif;
+
+
+}
+
+
+#grid {
+    background: blue;
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    justify-content:center;
+}
+
+#gameGrid {
+    margin: 0 20px 0 20px;
+    background-color: pink;
+    height: 52vh;
+    width: 52vh;
+    align-self: center;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
